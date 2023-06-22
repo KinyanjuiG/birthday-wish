@@ -1,0 +1,82 @@
+.image{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 4px solid #EFB0C9;
+}
+.flower{
+	height: 400px;
+	width: 400px;
+	border: 5px solid black;
+	background-image: url("images/birthday.webp");
+	background-size: cover;
+	margin: 0px auto;
+	border-radius: 10px;
+	padding: 10px;
+}
+body{
+	text-align: center;
+	font-family: 'Happy Monkey', cursive;
+	background-color: #a2d2ff;
+	color: #ffffff;
+	background: linear-gradient(#a2d2ff,black);
+}
+h1,h3,p{
+		text-shadow: 0px 0px 1px black;
+
+}
+#age{
+	background-color: #EFB0C9;
+	padding: 7px 10px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	border-radius: 5px;
+}
+#date{
+padding: 5px 8px;
+	background-color: #EFB0C9;
+	margin-top: 0px;
+
+}
+#pop{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	flex-direction: column;
+	margin-bottom: 15px;
+
+}
+.flower:hover{
+	background-image: url("images/kid.gif");
+	background-size: 50%;
+	margin-bottom: 15px;
+}
+.flowers{
+	height: 400px;
+	width: 400px;
+	border: 5px solid black;
+	background-image: url("images/birthday.webp");
+	background-size: cover;
+margin: 0px auto;
+}
+.flowers:hover{
+	background-image: url("images/ja.gif");
+
+}
+#ww:hover{
+	background-image: url("images/www.gif");
+
+
+}
+#xx:hover{
+		background-image: url("images/nn.gif");
+
+
+}
+.link{margin-bottom: 15px;
+	width: 400px;
+margin: 30px auto;
+}
+a{
+	color: white;
+}
